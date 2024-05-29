@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 95vh;
+    background-color: hsl(47, 88%, 63%);
+}
+.card-container {
+    padding: 2%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    max-width: 336px;
+    position: relative;
+    box-shadow: 10px 10px hsl(0, 0%, 7%);
+}
+
+p {
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#main-p {
+    color:hsl(0, 0%, 50%);
+}
+
+h2 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+}
+
+h2:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+#learning-box {
+    padding: 0% 2%;
+    border-radius: 10%;
+    background-color: hsl(47, 88%, 63%);
+    width: 70px;
+    margin-top: 10px;
+}
+#learning-box > p {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+}
+
+#graphic {
+    border-radius: 20px;
+}
+
+#name {
+    display: inline-flex;
+    gap: 10px;
+}
+
+#name > p {
+    font-weight: 800;
+}
+#name > img {
+    width: 30%;
+}
